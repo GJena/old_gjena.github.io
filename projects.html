@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Note: Only needed for demo purposes. Delete for production sites.
+-->
+<html>
+	<head>
+		<title>Grishma Jena : Projects </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="index.html"><b>Home</b></a>
+		  <a href="projects.html"><b>Projects</b></a>
+		  <a href="hackathons.html"><b>Hackathons</b></a>
+		  <a href="https://medium.com/@grishma.jena"><b>Blog Posts</b></a>
+		  <a href="opportunities.html"><b>Opportunities</b></a>
+		</div>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+				<!-- Spotlight -->
+				<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2> Data Adventures : Projects </h2>
+							<p> My tryst with data: A collection of my projects done for coursework and curiosity. </p>
+							</div>
+				</section>
+
+				<!-- Spotlight -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content" style="text-align:justify">
+							<h2>Enterprise to Computer : Star Trek chatbot</h2>
+							<p> The Enterprise to Computer bot (E2Cbot) was created as part of CIS 700-007 'Deep Learning for Automated Discourse'
+							at Penn. The premise for the project was to add a personality to the chatbot which was hosted as an Alexa skill on Amazon Echo. E2Cbot captures the 'style' of Star Trek 
+							by incorporating references from the show along with the peculiar tones of the show's characters (see image). Details can be found at the <a href="https://github.com/GJena/CIS-700-7_Chatbot-Project" style="color:#47D3E5;text-decoration:none"> Github repository </a> and at <a
+							href="https://arxiv.org/abs/1708.00818" style="color:#47D3E5;text-decoration:none"> Arxiv</a>.
+							</br> I collaborated with <a href="https://www.linkedin.com/in/mansivashisht" style="color:#47D3E5;text-decoration:none">Mansi Vashisht</a> and Abheek Basu 
+							under the guidance of <a href="https://sites.google.com/site/jsedoc/home" style="color:#47D3E5;text-decoration:none">João Sedoc</a> and Professor <a href="http://www.cis.upenn.edu/~ungar/" style="color:#47D3E5;text-decoration:none">
+							Lyle Ungar</a> for this project.</p>
+						</div>
+						<div class="image">
+							<img src="images/e2c.jpg" alt="" style="object-fit:cover" <figcaption> Conversation between user and E2Cbot skill </figcaption>/>
+						</div>
+					</section>
+					
+				<!-- Spotlight -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content" >
+							<h2> Computation of Renewable Energy Harvesting </h2>
+							<p style="text-align:justify"> Simulated the working of harvesters and examined neighbourly harvesting choices for residential areas 
+							using machine learning on historical data. </br> I collaborated with Guy Gadola under the guidance of Professor <a href="https://people.cs.pitt.edu/~mosse/" style="color:#47D3E5;text-decoration:none">
+							Daniel Mosse</a> for this project.</p>
+						</div>
+						<div class="image">
+							<img src="https://www.australiansolarquotes.com.au/wp-content/uploads/2016/01/Renewable-Energy.jpg" alt="" style="object-fit:cover"/>
+						</div>
+					</section>
+
+				<!-- Spotlight -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content" style="text-align:justify">
+							<h2>Face morphing</h2>
+							<p> I explored Computer Vision during my time at Penn and one of the projects I did was face morphing. I took a <a href="images/morph_me.jpg" style="color:#47D3E5;text-decoration:none">picture of mine</a>
+							and tried to morph it to look like <a href="images/morph_deepika.jpg" style="color:#47D3E5;text-decoration:none">Deepika Padukone</a> (Bollywood actress; you may know her from xXx : Return of Xander Cage). The result wasn't perfect but still pretty neat I think. </p>
+						</div>
+						<div class="image">
+							<video width="533" height="400" autoplay loop> <source src="images/video.mp4" type="video/mp4"> </video>
+						</div>	
+					</section>		
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				function openNav() {
+					document.getElementById("mySidenav").style.width = "180px";
+					document.getElementById("wrapper").style.marginLeft = "180px";
+				}
+
+				function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+					document.getElementById("wrapper").style.marginLeft= "0";
+					document.body.style.backgroundColor = "white";
+				}
+			</script>
+	</body>
+</html>
